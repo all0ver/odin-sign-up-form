@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Sign-up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="left">
+        <div class="logo">
+            <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+                alt="logo">
+            <h1>ODIN</h1>
+        </div>
+    </div>
+    <main class="rightMain">
+        <div class="mainContent">
+            <p class="infoText">This is not a real online service! You know you need something like this in your life to
+                help you realize your deepest dreams. Sign up <span class="italic">now</span> to get started</p>
+            <p class="infoText">You <span class="italic">know</span> you want to.</p>
+            <form>
+                <div class="inputs">
+                        <div class="inputContainer">
+                            <label for="fname">FIRST NAME</label>
+                            <input type="text" name="fname" id="fname" placeholder="Thor" required>
+                        </div>
+                        <div class="inputContainer">
+                            <label for="lname">LAST NAME</label>
+                            <input type="text" name="lname" id="lname" placeholder="Odison" required>
+                        </div>
+                        <div class="inputContainer">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" placeholder="odin@odin.com" required>
+                        </div>
+                        <div class="inputContainer">
+                            <label for="tel">PHONE NUMBER</label>
+                            <input type="tel" name="tel" id="tel" placeholder="+0 555 555 555" required>
+                        </div>
+                        <div class="inputContainer">
+                            <label for="pass">PASSWORD</label>
+                            <input type="password" name="pass" id="pass" required>
+                        </div>
+                        <div class="inputContainer">
+                            <label for="confirmPass">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirmPass" id="confirmPass" required>
+                        </div>
+                </div>
+                <input type="submit" value="Create Account" class="confirmButton">
+            </form>
+            <p class="logIn">Already have an account? <a href="#" class="logInLink">Log in</a></p>
+        </div>
+    </main>
+</body>
+
+</html>

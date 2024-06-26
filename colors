@@ -1,0 +1,4 @@
+main button: #596D48
+input border: #35373B
+:invalid - red / will find later
+:focus - blue / might change for light green later
